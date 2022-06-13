@@ -7,7 +7,7 @@ describe "#bubble_sort" do
     expect(result).to eq [1, 2, 3, 4]
   end
 
-  it "should return [1, 2, 3, 4] when we call the bubble_sort method with [3, 10, 10, 12, 3, 4, 1, 5]" do 
+  it "should return [1, 3, 3, 4, 5, 10, 10, 12] when we call the bubble_sort method with [3, 10, 10, 12, 3, 4, 1, 5]" do 
     result = bubble_sort([3, 10, 10, 12, 3, 4, 1, 5])
     expect(result).to eq [1, 3, 3, 4, 5, 10, 10, 12]
   end
