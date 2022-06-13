@@ -11,10 +11,10 @@ rspec -f d spec/
 
   should return [1, 2, 3, 4] when we call the bubble_sort method with [3, 4, 2, 1]
 
-  should return [1, 2, 3, 4] when we call the bubble_sort method with [3, 10, 10, 12, 3, 4, 1, 5]
+  should return [1, 3, 3, 4, 5, 10, 10, 12] when we call the bubble_sort method with [3, 10, 10, 12, 3, 4, 1, 5]
 
   should return ['at', 'bat', 'cat', 'pat', 'pull', 'push', 'sat'] when we call the bubble_sort method 
-with ['at', 'bat', 'cat', 'pat', 'pull', 'push']
+  with ['at', 'bat', 'cat', 'pat', 'pull', 'push']
 
 
 Finished in 0.00142 seconds (files took 0.09486 seconds to load)
