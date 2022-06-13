@@ -19,4 +19,7 @@ rspec -f d spec/
 
 Finished in 0.00142 seconds (files took 0.09486 seconds to load)
 
-3 examples, 0 failures
+3 examples, 0 failuresbubble_sort([4,3,78,2,0,2])
+
+
+=> [0, 2, 2, 3, 4, 78]
