@@ -12,7 +12,7 @@ describe "#bubble_sort" do
     expect(result).to eq [1, 3, 3, 4, 5, 10, 10, 12]
   end
 
-  it "should return ['at', ] when we call the bubble_sort method with ['at', 'bat', 'cat', 'pat', 'pull', 'push']" do 
+  it "should return ['at', 'bat', 'cat', 'pat', 'pull', 'push', 'sat'] when we call the bubble_sort method with ['at', 'bat', 'cat', 'pat', 'pull', 'push']" do 
     result = bubble_sort(['at', 'sat', 'cat', 'bat', 'pat', 'push', 'pull'])
     expect(result).to eq ['at', 'bat', 'cat', 'pat', 'pull', 'push', 'sat']
   end
